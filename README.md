@@ -8,3 +8,9 @@ val lib = Library.open("./libname.so") ?: throw Exception()
 val fn = lib.get<() -> Unit>("function_name")
 fn()
 ```
+
+### Support platform:
+* Windows X64 (mingwX64)
+* Linux X64
+
+macOS is not supported yet
